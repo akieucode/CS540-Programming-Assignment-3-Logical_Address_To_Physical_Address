@@ -9,7 +9,8 @@ Implementing Memory Management and Address Translation with C++ on Visual Studio
 - The program properly maps the logical pages numbers to physical frame numbers.
 - It handles cases for invalid page numbers. 
 
-- In this program, you will only need to run it
+- In this program, you will only need to run it.
+- To see the full effects of the code, go to line 42 and change "i<5 to i<10" from the for loop (// function to translate logical address to physical address, and providing the page numbers and offset). Making this change will allow for generating enough logical addresses to create scenarios for the page_faults function. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 OPENING THE PROGRAM:
